@@ -12,5 +12,6 @@ public abstract class Component {
         this.objectName = source.objectName;
     }
 
+    //abstract clone method
     public abstract Component clone();
 }
